@@ -36,7 +36,9 @@ function addLine(dataUser){
                 user[field.name] = field.value
             }
         })
-
+        // função nativa que limpa input dos formularios
+        formSubmit.reset()
         addLine(user)
+
     })
 
